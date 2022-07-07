@@ -2026,7 +2026,7 @@ img,
  * # preloader
  *
  * ------------------------------------------------------------------- */
-#preloader {
+/* #preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -2096,12 +2096,12 @@ img,
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## page loaded
  * ------------------------------------------------------------------- */
-.ss-loaded #preloader {
+/* .ss-loaded #preloader {
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all .6s .9s ease-in-out;
@@ -2112,7 +2112,7 @@ img,
     opacity: 0;
     -webkit-transition: opacity .6s ease-in-out;
     transition: opacity .6s ease-in-out;
-}
+} */
 
 
 /* ===================================================================
@@ -4393,7 +4393,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-gray-18);
+    background-color: #141414;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }
@@ -4711,3 +4711,5 @@ input[type="button"].btn--primary:focus {
         margin-right: 1.4rem;
     }
 }
+
+/* footer animation */
